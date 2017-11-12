@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alpaslantavukcu.toad_project.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onStartButtonClicked"
+            android:text="Başlat"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onStopButtonClicked"
+            android:text="Durdur"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Imperial March : 6, 6, 6, 8, 5, 6, 8, 5, 6, 3, 3, 3, 2, 5, 6, 8, 5, 6 "/>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:onClick="onButton1Clicked"
+            android:text="1"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:onClick="onButton2Clicked"
+            android:text="2"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:onClick="onButton3Clicked"
+            android:text="3"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:onClick="onButton4Clicked"
+            android:text="4"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:onClick="onButton5Clicked"
+            android:text="5"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:onClick="onButton6Clicked"
+            android:text="6"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:onClick="onButton7Clicked"
+            android:text="7"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:onClick="onButton8Clicked"
+            android:text="8"/>
+
+        <Button
+            android:layout_gravity="left|top"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:onClick="onButton9Clicked"
+            android:text="9"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>
